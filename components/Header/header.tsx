@@ -2,7 +2,20 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='flex bg-slate-200'>Header</div>
+    <div>
+        <div>
+            <div>
+                <span className=' bg-lime-600'>S</span>adiq {" "}
+                <span className=' bg-lime-600'>M</span>ohammad
+            </div>
+            <div>
+                <div id='#'>Home</div>
+                <div id='projects'>Projects</div>
+                <div id='blogs'>Blogs</div>
+                <div id='login'>Login</div>
+            </div>
+        </div>
+    </div>
   )
 }
 
