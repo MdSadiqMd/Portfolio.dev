@@ -1,22 +1,23 @@
-import React from 'react'
+import React from 'react';
 
 const Header = () => {
   return (
-    <div>
-        <div>
-            <div>
-                <span className=' bg-lime-600'>S</span>adiq {" "}
-                <span className=' bg-lime-600'>M</span>ohammad
-            </div>
-            <div>
-                <div id='#'>Home</div>
-                <div id='projects'>Projects</div>
-                <div id='blogs'>Blogs</div>
-                <div id='login'>Login</div>
-            </div>
+    <div className="bg-gray-800 text-white p-4">
+      <div className="flex items-center justify-between">
+        <div className="flex items-center font-bold">
+          <span className="bg-lime-600 p-2 rounded font-extrabold">S</span>
+          adiq{" "}
+          <span className="bg-lime-600 p-2 rounded font-extrabold">M</span>ohammad
         </div>
+        <div className="flex space-x-4">
+          <a href="#" className="hover:text-gray-300">Home</a>
+          <a href="#projects" className="hover:text-gray-300">Projects</a>
+          <a href="#blogs" className="hover:text-gray-300">Blogs</a>
+          <a href="#login" className="hover:text-gray-300">Login</a>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
