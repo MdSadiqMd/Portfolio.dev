@@ -19,12 +19,15 @@ const Header = () => {
       </div>
     </div>*/
     <div>
-      <nav>
-        <a href="./assets/android-chrome-512x512.png"></a>
+      <nav className='flex'>
+        <a href="./assets/android-chrome-512x512.png">Logo</a>
       </nav>
       <div>
         <ul>
-          <li></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Projects</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact</a></li>
         </ul>
       </div>
     </div>
