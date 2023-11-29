@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './header.css';
+import Image from 'next/image';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -16,7 +17,7 @@ class Header extends Component {
     return (
       <>
         <div id='nav'>
-          <a href='./assets'>Logo</a>
+          <a href='./assets/favicon-32x32.png'>Logo</a>
           <div>
             <ul id="navbar" className={this.state.clicked ? "active" : ""}>
               <li><a className='active' href="/">Home</a></li>
@@ -31,7 +32,7 @@ class Header extends Component {
               id="bar"
               style={{
                 fontSize: '24px', 
-                color: 'inherit', 
+                color: '#fff', 
                 marginRight: '10px',
               }}
             />
