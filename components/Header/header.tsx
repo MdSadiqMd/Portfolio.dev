@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import './header.css';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+library.add(faBars, faTimes);
 
 class Header extends Component {
   state = { clicked: false };
@@ -22,7 +26,15 @@ class Header extends Component {
             </ul>
           </div>
           <div id='mobile' onClick={this.handleClick}>
-            <i id="bar" className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
+            <FontAwesomeIcon
+              icon={this.state.clicked ? 'times' : 'bars'}
+              id="bar"
+              style={{
+                fontSize: '24px', 
+                color: 'inherit', 
+                marginRight: '10px',
+              }}
+            />
           </div>
         </div>
       </>
