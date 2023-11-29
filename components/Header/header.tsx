@@ -2,6 +2,7 @@ import React from 'react';
 
 const Header = () => {
   return (
+    /*
     <div className="bg-gray-800 text-white p-4">
       <div className="flex items-center justify-between">
         <div className="flex items-center font-bold">
@@ -15,6 +16,16 @@ const Header = () => {
           <a href="#blogs" className="hover:text-gray-300">Blogs</a>
           <a href="#login" className="hover:text-gray-300">Login</a>
         </div>
+      </div>
+    </div>*/
+    <div>
+      <nav>
+        <a href="./assets/android-chrome-512x512.png"></a>
+      </nav>
+      <div>
+        <ul>
+          <li></li>
+        </ul>
       </div>
     </div>
   );
