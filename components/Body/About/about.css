@@ -9,9 +9,10 @@
 }
 
 .text {
+    font-size: 1vw;
     float: left;
     width: 70%;
-    padding-left: 10%;
+    padding-left: 7%;
     margin: auto;
     margin-right: 0;
     display: flex;
@@ -22,12 +23,11 @@
 
 .socials {
     display: flex;
-    flex-direction: row; /* Change from column to row */
+    flex-direction: row; 
     margin: auto;
 }
 
 .socials div {
-    /* Remove height and margin-top properties */
     display: flex;
     gap: 5px;
 }
@@ -35,17 +35,25 @@
 
 .circle {
     float: right;
-    width: 30%; /* Adjust the width as needed */
-    margin-right: 5%; /* Adjust the margin as needed */
+    width: 30%; 
+    margin-right: 5%;
 }
 
 #name {
-    font-size: 4vw; /* Adjust the font size using viewport width */
+    font-size: 5vw; 
     font-weight: 250;
     letter-spacing: 0.1rem;
     margin: auto;
     padding-top: 18px;
     width: 100%;
+    padding-left: 18%;
+}
+
+@media (max-width: 900px) {
+    #name {
+        width: 90%; /* Adjust the width for smaller screens */
+        padding-left: 0; /* Remove padding for smaller screens */
+    }
 }
 
 .title {

@@ -18,8 +18,8 @@ const About = () => {
                 <span className="circle__btn">
                     <Image src={pfp} alt="Nits" />
                 </span>
-                <span className="circle__back-1"></span>
-                <span className="circle__back-2"></span>
+                {/*<span className="circle__back-1"></span>
+                <span className="circle__back-2"></span>*/}
             </div>
             <div className="text">
                 <p id="name">Mohammad <strong>Sadiq</strong></p>
