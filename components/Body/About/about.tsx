@@ -16,7 +16,7 @@ const About = () => {
         <div className="about">
             <div className="circle">
                 <span className="circle__btn">
-                    <Image src={pfp} alt="Nits" />
+                    <Image src={pfp} alt="Sadiq Image"/>
                 </span>
                 {/*<span className="circle__back-1"></span>
                 <span className="circle__back-2"></span>*/}
@@ -27,8 +27,7 @@ const About = () => {
                 <p className="title">Passionate Problem Solver</p>
                 <br />
                 <p className='description'>  A logical and creative thinker, I love solving problems. <br />   
-                    Web3 practitioner, <br />
-                    Full Stack developer.</p>
+                    Web3 practitioner, Full Stack developer.</p>
                     
                 
                 <div className="socials">
