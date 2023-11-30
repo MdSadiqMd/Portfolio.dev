@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './header.css';
 import Image from 'next/image';
+import Logo from '../../public/assets/favicon-32x32.png'
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -17,7 +18,7 @@ class Header extends Component {
     return (
       <>
         <div id='nav'>
-          <a href='./assets/favicon-32x32.png'>Logo</a>
+          <Image src={Logo} alt='logo' />
           <div>
             <ul id="navbar" className={this.state.clicked ? "active" : ""}>
               <li><a className='active' href="/">Home</a></li>
