@@ -1,5 +1,5 @@
-import pfp from './assets/me.png';
-
+import pfp from '../../../public/me.jpg';
+import Image from 'next/image';
 import './intro.css';
 
 import { useEffect } from "react";
@@ -16,7 +16,7 @@ const About = () => {
         <div className="intro">
             <div className="circle">
                 <span className="circle__btn">
-                    <img src={pfp} alt="Nits" />
+                    <Image src={pfp} alt="Nits" />
                 </span>
                 <span className="circle__back-1"></span>
                 <span className="circle__back-2"></span>
