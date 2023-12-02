@@ -22,7 +22,7 @@ const About = () => {
                 <span className="circle__back-2"></span>*/}
             </div>
             <div className="text">
-                <p id='hello'><hr id='hello-hr'/> Hello </p>
+                <p id='hello'><span><hr id='hello-hr'/></span> Hello </p>
                 <p id="name">I'm Mohammad <strong style={{color:'aquamarine'}}>Sadiq</strong></p>
                 <p className="title">Passionate Problem Solver</p>
                 <p className='description'>  A logical and creative thinker, I love solving problems. <br />   

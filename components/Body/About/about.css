@@ -11,7 +11,7 @@
 #hello {
     font-family: "Quicksand", sans-serif !important;
     width: 30vw; /* Adjust the width as needed */
-    font-size: 50px;
+    font-size: 30px;
     display: flex;
     flex-direction: row; /* Change to row to keep elements in one line */
     align-items: left; /* Center items vertically */
@@ -20,6 +20,7 @@
   }
 
   #hello-hr {
+   padding-top: 2px;
     width: 2vw;
     border-radius: 15%;
     font-weight: 700;
@@ -66,7 +67,7 @@
     margin: auto;
     padding-top: 18px;
     width: 100%;
-    padding-left: 16%;
+    padding-left: 21%;
 }
 
 @media (max-width: 900px) {
@@ -96,6 +97,8 @@ hr {
 }
 
 .socialicon {
+    display: flex;
+    flex-direction: row;
     fill: none;
     stroke: aquamarine;
     margin: 1vw; /* Adjust the margin using viewport units */
