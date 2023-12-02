@@ -6,11 +6,11 @@ import { useEffect } from "react";
 const AOS = require('aos');
 
 const About = () => {
-    useEffect(() => {
+    {/*useEffect(() => {
         AOS.init({
           duration : 2000
         });
-      }, []);
+      }, []);*/}
 
     return (
         <div className="about">
@@ -25,7 +25,7 @@ const About = () => {
                 <p id="name">Mohammad <strong>Sadiq</strong></p>
                 <p className="title">Passionate Problem Solver</p>
                 <p className='description'>  A logical and creative thinker, I love solving problems. <br />   
-                    Web3 practitioner, Full Stack developer.</p>
+                        Web3 practitioner, Full Stack developer.</p>
                 <br />                
                 <div className="socials">
                     <hr></hr>
