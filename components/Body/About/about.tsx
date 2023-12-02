@@ -2,8 +2,8 @@ import pfp from '../../../public/me.jpg';
 import Image from 'next/image';
 import './about.css';
 
-import { useEffect } from "react";
-const AOS = require('aos');
+//import { useEffect } from "react";
+//const AOS = require('aos');
 
 const About = () => {
     {/*useEffect(() => {
