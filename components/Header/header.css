@@ -27,7 +27,7 @@
   }
   #navbar li a:hover,
   #navbar li a.active {
-    color: #17cf97;
+    color: aquamarine;
   }
   
   #navbar li a:hover::after,
@@ -35,7 +35,7 @@
     content: "";
     width: 30%;
     height: 2px;
-    background: #17cf97;
+    background: aquamarine;
     position: absolute;
     bottom: -4px;
     left: 20px;
