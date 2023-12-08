@@ -8,26 +8,6 @@
     align-items: center;
 }
 
-#hello {
-    font-family: "Quicksand", sans-serif !important;
-    width: 30vw; /* Adjust the width as needed */
-    font-size: 30px;
-    display: flex;
-    flex-direction: row; /* Change to row to keep elements in one line */
-    align-items: left; /* Center items vertically */
-    justify-content: flex-start;
-    color: aquamarine;
-  }
-
-  #hello-hr {
-   padding-top: 2px;
-    width: 2vw;
-    border-radius: 15%;
-    font-weight: 700;
-    color: aquamarine;
-  }
-
-
 .text {
     font-family: "Quicksand", sans-serif !important;
     font-size: 1vw;
@@ -85,6 +65,7 @@
 
 .description {
     font-size: 1.5vw; /* Adjust the font size using viewport width */
+    color: #808dad;
 }
 
 hr {

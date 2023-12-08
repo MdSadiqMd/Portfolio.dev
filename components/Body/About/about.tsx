@@ -1,6 +1,7 @@
 import pfp from '../../../public/me.jpg';
 import Image from 'next/image';
 import './about.css';
+import SectionSubtitle from '../sectionSubtitle';
 
 //import { useEffect } from "react";
 //const AOS = require('aos');
@@ -22,7 +23,7 @@ const About = () => {
                 <span className="circle__back-2"></span>*/}
             </div>
             <div className="text">
-                <p id='hello'><span><hr id='hello-hr'/></span> Hello </p>
+                <SectionSubtitle subtitle="Hello" />
                 <p id="name">I'm Mohammad <strong style={{color:'aquamarine'}}>Sadiq</strong></p>
                 <p className="title">Passionate Problem Solver</p>
                 <p className='description'>  A logical and creative thinker, I love solving problems. <br />   
