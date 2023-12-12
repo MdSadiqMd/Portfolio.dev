@@ -1,6 +1,5 @@
 import React from 'react';
 import SectionSubtitle from '../sectionSubtitle';
-import Image from 'next/image';
 import { TERipple } from 'tw-elements-react';
 
 const Blog = () => {
