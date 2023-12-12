@@ -17,7 +17,7 @@ const About = () => {
         <div className="about">
             <div className="circle">
                 <span className="circle__btn">
-                    <Image src={pfp} alt="Sadiq Image"/>
+                    <Image src={pfp} alt="Sadiq Image" />
                 </span>
                 {/*<span className="circle__back-1"></span>
                 <span className="circle__back-2"></span>*/}
